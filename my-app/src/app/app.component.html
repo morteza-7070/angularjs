@@ -1,0 +1,47 @@
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+   
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExample07">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a  href="#" routerLink="/home" id="nav-link">Home <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item ">
+          <a  href='#' routerLink="/introduction"  id="nav-link">introduction</a>
+        </li>
+        <li class="nav-item ">
+          <a  href='#' routerLink="/skills"  id="nav-link">skills</a>
+        </li>
+        
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+              <li><a class="dropdown-item" href="https://github.com/morteza-7070/sass-site-21">sass</a></li>
+              <li><a class="dropdown-item" href="https://github.com/morteza-7070/bootstrap5">bootstrap5</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </ul>
+      <div class="rezome">
+        <h2 class="icon2">rezome</h2>
+      <div class="icon"><img src="https://img.icons8.com/fluency/48/null/resume.png"/></div>
+      </div>
+      
+      
+    </div>
+  </div>
+</nav>
+
+<div class="main-container">
+  <router-outlet></router-outlet>
+</div>
